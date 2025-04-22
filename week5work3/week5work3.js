@@ -8,7 +8,7 @@ createCanvas(windowWidth,windowHeight);
 background('blue');
 points = font.textToPoints(
 'diamonds',width/4-200,height/2,400,{
-  sampleFactor:0.2,
+  sampleFactor:0.05,
   simplifyThreshold:0
 });
   rectMode(CENTER);
